@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header-section">
+      <h1>SERP Vimeo Video Downloader</h1>
+    </div>
+    
+    <!-- License activation section -->
+    <div class="section" id="inactive-section" style="display: none;">
+      <p class="status-text">🔒 Extension not activated</p>
+      <input type="text" id="license-input" class="license-input" placeholder="Enter your license key">
+      <button id="activate-btn" class="button">Activate Extension</button>
+      <a href="https://serp.ly/stuff/vimeo-video-downloader" target="_blank" class="link">Get a license key →</a>
+      <div id="error-message" class="error"></div>
+    </div>
+    
+    <!-- Active license section -->
+    <div class="section" id="active-section" style="display: none;">
+      <p class="status-text">✓ Extension activated</p>
+      <button id="deactivate-btn" class="button button-secondary">Deactivate</button>
+    </div>
+    
+    <!-- Video content section -->
+    <div id="content-section" style="display: none;">
+      <div id="status" class="status">Scanning page for Vimeo videos...</div>
+      
+      <div class="scrollable-content">
+        <div id="videoList" class="video-list"></div>
+        
+        <div class="instructions">
+          <h3>How to download:</h3>
+          <ol>
+            <li>Click "Copy Command" for the video you want</li>
+            <li>Open Terminal</li>
+            <li>Paste and run the command</li>
+            <li>Video will download using streamlink</li>
+          </ol>
+          <p class="note">Requires streamlink: <code>brew install streamlink</code></p>
+          <p class="note">🔊 Audio included automatically with <code>--hls-audio-select "*"</code></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

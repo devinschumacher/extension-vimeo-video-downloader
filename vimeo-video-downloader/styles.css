@@ -1,0 +1,322 @@
+/* Vimeo Video Downloader Extension Styles */
+
+body {
+  width: 500px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  position: sticky;
+  top: 0;
+  background: #f5f5f5;
+  padding: 16px 16px 0 16px;
+  z-index: 100;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.scrollable-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+h1::before {
+  content: "▶";
+  color: #00adef;
+  font-size: 16px;
+}
+
+.status {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.status.success {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+.status.error {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
+
+.status.empty {
+  background-color: #fff3e0;
+  color: #e65100;
+  border: 1px solid #ffcc80;
+}
+
+.video-list {
+  margin-bottom: 16px;
+}
+
+.video-item {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.video-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.video-number {
+  background: #00adef;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.video-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.video-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.video-id {
+  font-size: 12px;
+  color: #666;
+}
+
+.video-urls {
+  margin-bottom: 12px;
+}
+
+.url-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.url-label {
+  color: #666;
+  min-width: 50px;
+}
+
+.url-item a {
+  color: #00adef;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.url-item a:hover {
+  text-decoration: underline;
+}
+
+.command-section {
+  margin-bottom: 12px;
+}
+
+.command-label {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.command-box {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.command-box code {
+  flex: 1;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 12px;
+  word-break: break-all;
+  background: none;
+  padding: 0;
+}
+
+.copy-button {
+  background: #00adef;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.copy-button:hover {
+  background: #0099d3;
+}
+
+.copy-button.copied {
+  background: #4CAF50;
+}
+
+
+.instructions {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.instructions h3 {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #424242;
+}
+
+.instructions ol {
+  margin: 0 0 12px 0;
+  padding-left: 20px;
+}
+
+.instructions li {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.instructions code {
+  background: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 12px;
+}
+
+.note {
+  margin: 8px 0 0 0;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
+
+/* License UI Styles */
+.section {
+  padding: 16px;
+  text-align: center;
+}
+
+.status-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #424242;
+}
+
+.license-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: border-color 0.2s;
+}
+
+.license-input:focus {
+  outline: none;
+  border-color: #00adef;
+}
+
+.license-input::placeholder {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.button {
+  background: #00adef;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 16px;
+}
+
+.button:hover {
+  background: #0099d3;
+}
+
+.button-secondary {
+  background: #757575;
+}
+
+.button-secondary:hover {
+  background: #616161;
+}
+
+.link {
+  color: #00adef;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #c62828;
+  font-size: 14px;
+  margin-top: 8px;
+  min-height: 20px;
+}
