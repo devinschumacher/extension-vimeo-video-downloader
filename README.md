@@ -12,11 +12,6 @@ A Chrome extension that extracts Vimeo video URLs from any webpage and provides 
 - For private videos: May require cookies or authentication
 - License key
 
-## Notes
-
-- Private videos may require authentication cookies
-- Some embedded videos might use special parameters
-
 ## Permissions
 
 This extension requires the following permissions to function properly:
@@ -32,16 +27,20 @@ This extension requires the following permissions to function properly:
 
 ### Host Permissions
 
-#### https://*.vimeo.com/*
+#### `https://*.vimeo.com/*`
+
 **Why we need it:** Required to access Vimeo's oEmbed API to fetch video titles and metadata. This ensures you can see the actual video titles instead of just ID numbers.
 
-#### https://player.vimeo.com/*
+#### `https://player.vimeo.com/*`
+
 **Why we need it:** Necessary to detect and interact with embedded Vimeo players on any website. Many sites embed videos using the player.vimeo.com domain.
 
-#### https://vimeo.com/api/*
+#### `https://vimeo.com/api/*`
+
 **Why we need it:** Used to make API calls to retrieve video information such as titles, descriptions, and thumbnail images for better video identification.
 
-#### https://*/*
+#### `https://*/*`
+
 **Why we need it:** Required to detect Vimeo videos embedded on any website across the internet. Since Vimeo videos can be embedded on any domain, we need broad host permissions to scan for video content wherever you browse.
 
 **Privacy Note:** The extension only activates when you click its icon and only processes video information from the current page. No data is collected, stored permanently, or transmitted to any external servers.
