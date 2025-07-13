@@ -22,7 +22,7 @@ A Chrome extension that extracts Vimeo video URLs from any webpage and provides 
 
 
 <details>
-<summary>
+<summary></summary>
   
 ## Requirements
 
@@ -76,5 +76,5 @@ If you still experience audio issues:
 4. **Convert with VLC**: Use VLC's "Convert/Stream" option (File menu on Mac) to fix compatibility issues
 
 
-</summary>
+
 </details>
