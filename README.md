@@ -3,7 +3,8 @@
 A Chrome extension that extracts Vimeo video URLs from any webpage and provides download links using [the streamlink method](https://gist.github.com/devinschumacher/a189434fc9f374965888ca2dc793953e).
 
 1. 🔗 Get it here: https://serp.ly/stuff/vimeo-video-downloader
-2. 🆘 Get help: [Submit an issue here so I can help fix it.](https://github.com/devinschumacher/extension-vimeo-video-downloader/issues)
+2. 🆘 Ask for help: https://serp.ly/@serp/community
+3. 🐛 Report bugs: [Submit an issue here so I can help fix it.](https://github.com/devinschumacher/devinschumacher/issues)
 
 
 ## Contact info
@@ -20,11 +21,9 @@ A Chrome extension that extracts Vimeo video URLs from any webpage and provides 
 - [Discord](https://serp.ly/@serp/discord)
 
 
-
-
-
----
-
+<details>
+<summary>
+  
 ## Requirements
 
 - Chrome browser
@@ -76,3 +75,6 @@ If you still experience audio issues:
 3. **Player compatibility**: Some players (like QuickTime) may have issues. Try VLC Media Player for better compatibility
 4. **Convert with VLC**: Use VLC's "Convert/Stream" option (File menu on Mac) to fix compatibility issues
 
+
+</summary>
+</details>
