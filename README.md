@@ -5,6 +5,26 @@ A Chrome extension that extracts Vimeo video URLs from any webpage and provides 
 1. 🔗 Get it here: https://serp.ly/stuff/vimeo-video-downloader
 2. 🆘 Get help: [Submit an issue here so I can help fix it.](https://github.com/devinschumacher/extension-vimeo-video-downloader/issues)
 
+
+## Contact info
+
+- [Linkedin](https://serp.ly/@devin/linkedin)
+- [Instagram](https://serp.ly/@devin/instagram)
+- [Facebook](https://serp.ly/@devin/facebook)
+- [Twitter](https://serp.ly/@devin/twitter)
+- [Github](https://serp.ly/@devin/github)
+
+## Communities
+
+- [SERP University Community Platform](https://serp.ly/@serp/community)
+- [Discord](https://serp.ly/@serp/discord)
+
+
+
+
+
+---
+
 ## Requirements
 
 - Chrome browser
