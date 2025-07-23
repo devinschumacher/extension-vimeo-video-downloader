@@ -1,5 +1,14 @@
 # Vimeo Video Downloader Extension
 
+> ⚠️  **UPDATE**
+>
+> The official [repository for the vimeo-downloader](https://github.com/serpapps/vimeo-video-downloader) releases, issues, etc. has been moved to the [@serpapps organization](https://github.com/serpapps).
+
+<br>
+<details>
+
+
+
 A Chrome extension that extracts Vimeo video URLs from any webpage and provides download links using [the streamlink method](https://gist.github.com/devinschumacher/a189434fc9f374965888ca2dc793953e).
 
 1. 🔗 Get it here: https://serp.ly/stuff/vimeo-video-downloader
